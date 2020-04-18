@@ -1,0 +1,149 @@
+
+
+   body {
+   
+        background: url(images/glassesOfBeer.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+   }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+    }
+
+
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #ffcc99;
+}
+
+h3 {
+    color: #ffcc99;
+    font-weight: bolder;
+}
+
+#names {
+    color: coral;
+}
+
+
+
+.container {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.card {
+    height:auto;
+    width:300px;
+    display:inline-block;
+    box-shadow: 5px 5px 5px 5px brown;
+    padding: 50px 50px;
+    background-color: #ffcc99;
+    margin-right:20px;
+}
+
+
+
+.search_form {
+    
+    display:inline-block;
+    padding: 70px 50px;
+    min-width: 100%;
+    color:black;
+    
+}
+
+header {
+margin-top: 10px;
+font-weight:bold;
+
+}
+
+
+a {
+
+    text-decoration: none;
+    color:#ffcc99;
+}
+
+a:hover
+ {
+   color: white;
+   text-decoration:none;
+   cursor:pointer;
+  }
+
+footer {
+    position:relative;
+    z-index:501;
+    clear:both;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    font-weight: bold;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+input[type="text"] {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+
+.res {
+
+    display: none;
+}
+
+
+.search {
+
+    left:50%;
+    margin-left:500px;
+}
+
+
+
+
+
+
+  /*media queries for responsiveness */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  }
+  
+  /* Portrait */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  }
+  
+  /* Landscape */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  
+  }
