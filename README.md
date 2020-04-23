@@ -29,4 +29,4 @@
 * Images for this project were provided from www.unsplash.com
 * API utilized for brewery locations www.openbrewerydb.org
 
-For live demo of project click link ====> https://fernandonunez-dev.github.io/Craft-Beverage-     Locator/craftbeveragelocator.html
+For live demo of project click link ====> https://fernandonunez-dev.github.io/Craft-Beverage-Locator/craftbeveragelocator.html 
